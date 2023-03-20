@@ -13,12 +13,12 @@ function distanceFromHqInFeet(someValue) {
 }
 
 
-function distanceTravelledInFeet(a,b) {
-    if (b>a){
-        return((b-a)*264);
+function distanceTravelledInFeet(x,y) {
+    if (y>x){
+        return((y-x)*264);
     }
     else 
-        return((a-b)*264);
+        return((x-y)*264);
 }
 
 function calculatesFarePrice(start, destination) { 
